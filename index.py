@@ -58,3 +58,13 @@ print(
 #   print(item)
 # could also get the results this way but would be in a list
 # results: [2,4,6,8]
+
+
+
+my_nums=[1,2,3,4,5]
+
+print(
+  list(map(lambda num: num**2, my_nums))
+)
+# example of using anon functions (lambdas) to also get a list of
+# squared numbers from the my_nums variable
