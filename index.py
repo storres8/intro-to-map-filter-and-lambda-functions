@@ -42,3 +42,19 @@ print(
 # this functions returns ['s', 'k', 'EVEN']
 # by mapping over the names string and applying the splicer function
 # onto each of the names in the names list
+
+def even(num):
+  if num %2 ==0:
+    return True
+  else:
+    False
+
+my_nums=[1,2,3,4,5,6,7,8,9]
+
+print(
+  list(filter(even,my_nums))
+)
+# for item in filter(even, my_nums):
+#   print(item)
+# could also get the results this way but would be in a list
+# results: [2,4,6,8]
